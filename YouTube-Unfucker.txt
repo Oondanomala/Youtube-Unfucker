@@ -1,0 +1,57 @@
+! Search box
+youtube.com##ytd-searchbox #container:style(border-radius: 0px !important)
+youtube.com##ytd-searchbox #search-icon-legacy:style(border-radius: 0px !important)
+! Search suggestions
+youtube.com##.sbsb_a:style(border-radius: 0px !important)
+youtube.com##.sbdd_b:style(border-radius: 0px !important)
+! Video settings menu
+youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
+! Player buttons tooltip
+youtube.com##.ytp-tooltip-text:style(border-radius: 2px !important)
+! Next/Previous and switch multifeed button tooltip
+youtube.com##.ytp-tooltip:style(border-radius: 2px !important)
+youtube.com##.ytp-tooltip-bg:style(border-radius: 0px !important)
+! Video watermark
+youtube.com##.branding-context-container-inner:style(border-radius: 2px !important)
+youtube.com##.ytp-sb-subscribe, .ytp-sb-unsubscribe:style(border-radius: 2px !important)
+! General tooltips
+youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
+! Thumbnail stuff
+youtube.com##ytd-thumbnail a:style(border-radius: 0px !important)
+youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
+youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
+! Thumbnail buttons
+youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
+! Channel name in video page
+youtube.com###channel-name.ytd-video-owner-renderer:style(font-size: 1.4rem !important; line-height: 2rem !important)
+! Category thing in the description
+youtube.com##ytd-rich-metadata-renderer:style(border-radius: 0px !important)
+! Endscreen recommendations
+youtube.com##.ytp-videowall-still-image:style(border-radius: 0px !important)
+! Endcards
+youtube.com##.ytp-ce-video, .ytp-ce-playlist:style(border-radius: 0px !important)
+youtube.com##.ytp-ce-expanding-overlay-background:style(border-radius: 2px !important)
+! Infocards
+youtube.com##.iv-card:style(border-radius: 0px !important)
+! General dialog menus (share, add to playlist, report, etc...)
+youtube.com##tp-yt-paper-dialog:style(border-radius: 0px !important)
+! Share dialog
+youtube.com##yt-copy-link-renderer #bar:style(border-radius: 2px !important; padding: 4px 0 !important)
+! Panel beside the video (chapters, clips, etc... but not live chat or playlist)
+youtube.com##ytd-engagement-panel-section-list-renderer:style(border-radius: 0px !important)
+youtube.com##ytd-engagement-panel-title-header-renderer #title-text:style(font-family: Roboto, Arial, sans-serif !important; font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important; max-height: 2.2rem !important)
+! Chapters panel
+youtube.com##ytd-macro-markers-list-item-renderer #thumbnail:style(border-radius: 0px !important)
+! Chapters section in description
+youtube.com##ytd-macro-markers-list-item-renderer.ytd-horizontal-card-list-renderer:style(border-radius: 2px !important)
+youtube.com##ytd-rich-list-header-renderer #title:style(font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important; max-height: 2.2rem !important)
+! Transcript panel
+youtube.com##ytd-transcript-segment-renderer .segment-timestamp:style(border-radius: 2px !important)
+! Playlist panel
+youtube.com##ytd-playlist-panel-renderer #container:style(border-radius: 0px !important)
+youtube.com##ytd-playlist-panel-renderer .title:style(font-family: "Roboto","Arial",sans-serif !important; font-size: 1.4rem !important; line-height: 2rem !important; font-weight: 500 !important; max-height: 2rem !important)
+youtube.com##ytd-playlist-panel-renderer[collapsed] .header:style(background-color: var(--yt-spec-brand-background-primary) !important)
+youtube.com##ytd-playlist-panel-video-renderer[selected]:style(background-color: var(--yt-spec-badge-chip-background) !important)
+! Live chat (show chat button is a normal button, aka a pain) (this doesnt work so well in dark mode)
+youtube.com##ytd-live-chat-frame:style(border-radius: 0px !important; border: 1px solid var(--yt-spec-10-percent-layer) !important)
+youtube.com###show-hide-button.ytd-live-chat-frame:has(yt-button-shape:empty)
