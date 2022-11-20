@@ -1,3 +1,10 @@
+! Title: Youtube Unfucker
+! Description: Reverts Youtube's latest ui downgrade
+! Expires: 5 days
+! Homepage: https://github.com/Oondanomala/Youtube-Unfucker
+! License: https://github.com/Oondanomala/Youtube-Unfucker/blob/main/LICENSE
+
+
 ! Search box
 youtube.com##ytd-searchbox #container:style(border-radius: 0px !important)
 youtube.com##ytd-searchbox #search-icon-legacy:style(border-radius: 0px !important)
