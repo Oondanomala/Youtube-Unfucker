@@ -9,8 +9,8 @@
 youtube.com##ytd-searchbox #container:style(border-radius: 0px !important)
 youtube.com##ytd-searchbox #search-icon-legacy:style(border-radius: 0px !important)
 ! Search suggestions
-youtube.com##.sbsb_a:style(border-radius: 0px !important; position: relative; top: -1px !important)
-youtube.com##.sbdd_b:style(border-radius: 0px !important; position: relative; top: -1px !important)
+youtube.com##.sbsb_a:style(border-radius: 0px !important; position: relative !important; top: -1px !important)
+youtube.com##.sbdd_b:style(border-radius: 0px !important; position: relative !important; top: -1px !important)
 ! Video settings menu
 youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
 ! Player buttons tooltip
