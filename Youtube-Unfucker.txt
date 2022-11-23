@@ -13,6 +13,14 @@ youtube.com##ytd-searchbox #search-icon-legacy:style(border-radius: 0px !importa
 ! Search suggestions
 youtube.com##.sbsb_a:style(border-radius: 0px !important; position: relative !important; top: -1px !important)
 youtube.com##.sbdd_b:style(border-radius: 0px !important; position: relative !important; top: -1px !important)
+! Thumbnail stuff
+youtube.com##ytd-thumbnail a:style(border-radius: 0px !important)
+youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
+youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
+! Thumbnail buttons
+youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
+! General tooltips
+youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
 ! Video settings menu
 youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
 ! Player buttons tooltip
@@ -23,18 +31,6 @@ youtube.com##.ytp-tooltip-bg:style(border-radius: 0px !important)
 ! Video watermark
 youtube.com##.branding-context-container-inner:style(border-radius: 2px !important)
 youtube.com##.ytp-sb-subscribe, .ytp-sb-unsubscribe:style(border-radius: 2px !important)
-! General tooltips
-youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
-! Thumbnail stuff
-youtube.com##ytd-thumbnail a:style(border-radius: 0px !important)
-youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
-youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
-! Thumbnail buttons
-youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
-! Channel name in video page
-youtube.com###channel-name.ytd-video-owner-renderer:style(font-size: 1.4rem !important; line-height: 2rem !important)
-! Category thing in the description
-youtube.com##ytd-rich-metadata-renderer:style(border-radius: 0px !important)
 ! Endscreen recommendations
 youtube.com##.ytp-videowall-still-image:style(border-radius: 0px !important)
 ! Endcards
@@ -42,6 +38,10 @@ youtube.com##.ytp-ce-video, .ytp-ce-playlist:style(border-radius: 0px !important
 youtube.com##.ytp-ce-expanding-overlay-background:style(border-radius: 2px !important)
 ! Infocards
 youtube.com##.iv-card:style(border-radius: 0px !important)
+! Channel name in video page
+youtube.com###channel-name.ytd-video-owner-renderer:style(font-size: 1.4rem !important; line-height: 2rem !important)
+! Category thing in the description
+youtube.com##ytd-rich-metadata-renderer:style(border-radius: 0px !important)
 ! General dialog menus (share, add to playlist, report, etc...)
 youtube.com##tp-yt-paper-dialog:style(border-radius: 0px !important)
 ! Share dialog
