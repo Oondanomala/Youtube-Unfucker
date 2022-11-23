@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/Oondanomala/Youtube-Unfucker
 ! License: https://github.com/Oondanomala/Youtube-Unfucker/blob/main/LICENSE
 
+
 ! Background (also reverts darker dark theme)
 youtube.com##ytd-app:style(background: var(--yt-spec-general-background-a) !important)
 ! Search box
