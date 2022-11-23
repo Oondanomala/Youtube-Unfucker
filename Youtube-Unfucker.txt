@@ -51,7 +51,6 @@ youtube.com##ytd-engagement-panel-section-list-renderer:style(border-radius: 0px
 youtube.com##ytd-engagement-panel-title-header-renderer #title-text:style(font-family: Roboto, Arial, sans-serif !important; font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important; max-height: 2.2rem !important)
 ! Chapters panel
 youtube.com##ytd-macro-markers-list-item-renderer #thumbnail:style(border-radius: 0px !important)
-youtube.com###content.ytd-engagement-panel-section-list-renderer:style(background-color: var(--yt-spec-general-background-a) !important)
 ! Chapters section in description
 youtube.com##ytd-macro-markers-list-item-renderer.ytd-horizontal-card-list-renderer:style(border-radius: 2px !important)
 youtube.com##ytd-rich-list-header-renderer #title:style(font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important; max-height: 2.2rem !important)
