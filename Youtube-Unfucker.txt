@@ -61,9 +61,10 @@ youtube.com##ytd-playlist-panel-renderer #container:style(border-radius: 0px !im
 youtube.com##ytd-playlist-panel-renderer .title:style(font-family: "Roboto","Arial",sans-serif !important; font-size: 1.4rem !important; line-height: 2rem !important; font-weight: 500 !important; max-height: 2rem !important)
 youtube.com##ytd-playlist-panel-renderer[collapsed] .header:style(background-color: var(--yt-spec-brand-background-primary) !important)
 youtube.com##ytd-playlist-panel-video-renderer[selected]:style(background-color: var(--yt-spec-badge-chip-background) !important)
-! Live chat (this doesnt work so well in dark mode)
+! Live chat
 youtube.com##ytd-live-chat-frame:style(border-radius: 0px !important; border: 1px solid var(--yt-spec-10-percent-layer) !important)
+youtube.com###chatframe:style(border-radius: 0px !important)
 youtube.com###show-hide-button.ytd-live-chat-frame:has(yt-button-shape:empty)
-youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:style(border-radius: 0px !important; height: 29px !important; font-size: 11px !important; text-transform: uppercase !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; color: var(--yt-live-chat-secondary-text-color) !important; border: none !important)
-youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:hover:style(color: var(--yt-live-chat-primary-text-color) !important; background-color: transparent !important)
+youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:style(border-radius: 0px !important; height: 29px !important; font-size: 11px !important; text-transform: uppercase !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; color: var(--yt-live-chat-secondary-text-color) !important; background-color: var(--yt-spec-brand-background-primary) !important; border: none !important)
+youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:hover:style(color: var(--yt-live-chat-primary-text-color) !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m > yt-touch-feedback-shape
