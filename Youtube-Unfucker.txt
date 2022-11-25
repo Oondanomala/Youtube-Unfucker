@@ -13,6 +13,8 @@ youtube.com##ytd-searchbox #search-icon-legacy:style(border-radius: 0px !importa
 ! Search suggestions
 youtube.com##.sbsb_a:style(border-radius: 0px !important; position: relative !important; top: -1px !important)
 youtube.com##.sbdd_b:style(border-radius: 0px !important; position: relative !important; top: -1px !important)
+! Top bar menus
+youtube.com##ytd-multi-page-menu-renderer:style(border-radius: 0px !important; background: var(--yt-spec-brand-background-primary) !important; border: 1px solid var(--yt-spec-10-percent-layer) !important; border-top: none !important; box-shadow: none !important; backdrop-filter: none !important)
 ! Thumbnail stuff
 youtube.com##ytd-thumbnail a:style(border-radius: 0px !important)
 youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
