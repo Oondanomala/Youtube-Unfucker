@@ -48,7 +48,7 @@ youtube.com##ytd-rich-metadata-renderer:style(border-radius: 0px !important)
 youtube.com##tp-yt-paper-dialog:style(border-radius: 0px !important)
 ! Share dialog
 youtube.com##yt-copy-link-renderer #bar:style(border-radius: 2px !important; padding: 4px 0 !important)
-! Panel beside the video (chapters, clips, etc... but not live chat or playlist)
+! Panel beside the video (chapters, clips, transcript)
 youtube.com##ytd-engagement-panel-section-list-renderer:style(border-radius: 0px !important)
 youtube.com##ytd-engagement-panel-title-header-renderer #title-text:style(font-family: Roboto, Arial, sans-serif !important; font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important; max-height: 2.2rem !important)
 ! Chapters panel
@@ -58,6 +58,9 @@ youtube.com##ytd-macro-markers-list-item-renderer.ytd-horizontal-card-list-rende
 youtube.com##ytd-rich-list-header-renderer #title:style(font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important; max-height: 2.2rem !important)
 ! Transcript panel
 youtube.com##ytd-transcript-segment-renderer .segment-timestamp:style(border-radius: 2px !important)
+! Fundraiser panel
+youtube.com##ytd-donation-shelf-renderer:style(border-radius: 0px !important)
+youtube.com##ytd-donation-shelf-renderer #header-text:style(font-family: "Roboto","Arial",sans-serif !important; font-size: 1.6rem !important; line-height: 2.2rem !important; font-weight: 400 !important)
 ! Playlist panel
 youtube.com##ytd-playlist-panel-renderer #container:style(border-radius: 0px !important)
 youtube.com##ytd-playlist-panel-renderer .title:style(font-family: "Roboto","Arial",sans-serif !important; font-size: 1.4rem !important; line-height: 2rem !important; font-weight: 500 !important; max-height: 2rem !important)
