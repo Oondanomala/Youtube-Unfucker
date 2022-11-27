@@ -4,7 +4,10 @@
 ! Homepage: https://github.com/Oondanomala/Youtube-Unfucker
 ! License: https://github.com/Oondanomala/Youtube-Unfucker/blob/main/LICENSE
 
-
+! Skeleton ui (before loading page)
+youtube.com###home-page-skeleton .rich-thumbnail, #home-page-skeleton .rich-thumbnail::before:style(border-radius: 0px !important)
+youtube.com###home-container-skeleton:style(background-color: hsl(0,0%,98%) !important)
+youtube.com##html[dark] #home-container-skeleton:style(background-color: #181818 !important)
 ! Background (also reverts darker dark theme) (darker-dark-theme)
 ! youtube.com##ytd-app:style(background: var(--yt-spec-general-background-a) !important)
 ! Search box (desktop-searchbar-style)
