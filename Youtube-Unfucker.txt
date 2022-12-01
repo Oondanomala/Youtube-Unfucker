@@ -27,6 +27,7 @@ youtube.com##ytd-thumbnail a, ytd-thumbnail::before:style(border-radius: 0px !im
 youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
 youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
 youtube.com###home-page-skeleton .rich-thumbnail, #home-page-skeleton .rich-thumbnail::before:style(border-radius: 0px !important)
+youtube.com##ytd-ghost-grid-renderer .rich-thumbnail:style(border-radius: 0px !important)
 ! Thumbnail buttons
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
 ! General tooltips
