@@ -7,8 +7,6 @@
 
 ! Background (also reverts darker dark theme) (darker-dark-theme)
 ! youtube.com##ytd-app:style(background: var(--yt-spec-general-background-a) !important)
-youtube.com###home-container-skeleton:style(background-color: hsl(0,0%,98%) !important)
-youtube.com##html[dark] #home-container-skeleton:style(background-color: #181818 !important)
 ! Search box (desktop-searchbar-style)
 ! youtube.com##ytd-searchbox #container:style(border-radius: 2px 0 0 2px !important; margin-left: 34px !important; padding: 2px 6px !important)
 ! youtube.com##ytd-searchbox[has-focus] #container:style(padding: 2px 6px 2px 40px !important; margin-left: 0 !important)
@@ -26,12 +24,17 @@ youtube.com##.sbsb_c:style(padding: 0px 24px 0px 10px !important)
 youtube.com##ytd-thumbnail a, ytd-thumbnail::before:style(border-radius: 0px !important)
 youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
 youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
-youtube.com###home-page-skeleton .rich-thumbnail, #home-page-skeleton .rich-thumbnail::before:style(border-radius: 0px !important)
-youtube.com##ytd-ghost-grid-renderer .rich-thumbnail:style(border-radius: 0px !important)
 ! Thumbnail buttons
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
 ! General tooltips
 youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
+! Loading placeholders
+youtube.com###home-page-skeleton .rich-thumbnail, #home-page-skeleton .rich-thumbnail::before:style(border-radius: 0px !important)
+youtube.com###home-container-skeleton:style(background-color: hsl(0,0%,98%) !important)
+youtube.com##html[dark] #home-container-skeleton:style(background-color: #181818 !important)
+youtube.com##html:has(#watch-page-skeleton):style(background-color: #f9f9f9 !important)
+youtube.com##html[dark]:has(#watch-page-skeleton):style(background-color: #181818 !important)
+youtube.com##ytd-ghost-grid-renderer .rich-thumbnail:style(border-radius: 0px !important)
 ! Video settings menu
 youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
 ! Player buttons tooltip
