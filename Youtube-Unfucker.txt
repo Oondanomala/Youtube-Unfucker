@@ -22,6 +22,9 @@ youtube.com##.sbsb_c:style(padding: 0px 24px 0px 10px !important)
 ! youtube.com##ytd-multi-page-menu-renderer:style(border-radius: 0px !important; background: var(--yt-spec-brand-background-primary) !important; border: 1px solid var(--yt-spec-10-percent-layer) !important; border-top: none !important; box-shadow: none !important; backdrop-filter: none !important)
 ! General tooltips
 youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
+! Dropdown menu (the animated one)
+youtube.com##yt-dropdown-menu:style(--paper-menu-button-content-border-radius: 2px !important)
+youtube.com##yt-dropdown-menu #menu:style(border-radius: 2px !important)
 ! Loading placeholders
 youtube.com###home-page-skeleton .rich-thumbnail, #home-page-skeleton .rich-thumbnail::before:style(border-radius: 0px !important)
 youtube.com###home-container-skeleton:style(background-color: hsl(0,0%,98%) !important)
