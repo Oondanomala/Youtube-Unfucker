@@ -26,6 +26,8 @@ youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
 youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
 ! Thumbnail buttons
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
+! Miniplayer
+youtube.com##ytd-miniplayer #player-container, .ytp-player-minimized .html5-main-video, .ytp-miniplayer-scrim:style(border-radius: 0px !important)
 ! General tooltips
 youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
 ! Loading placeholders
