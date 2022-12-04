@@ -37,6 +37,8 @@ youtube.com##html[dark] #home-container-skeleton:style(background-color: #181818
 youtube.com##html:has(#watch-page-skeleton):style(background-color: #f9f9f9 !important)
 youtube.com##html[dark]:has(#watch-page-skeleton):style(background-color: #181818 !important)
 youtube.com##ytd-ghost-grid-renderer .rich-thumbnail:style(border-radius: 0px !important)
+! Video preview player
+youtube.com##ytd-video-preview #video-preview-container:style(border-radius: 0px !important)
 ! Video settings menu
 youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
 ! Player buttons tooltip
