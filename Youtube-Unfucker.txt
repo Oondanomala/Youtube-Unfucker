@@ -20,14 +20,6 @@ youtube.com##.sbsb_c:style(padding: 0px 24px 0px 10px !important)
 ! youtube.com##.sbfl_a:style(margin: -5px -18px -9px 0 !important)
 ! Top bar menus (sheets-refresh)
 ! youtube.com##ytd-multi-page-menu-renderer:style(border-radius: 0px !important; background: var(--yt-spec-brand-background-primary) !important; border: 1px solid var(--yt-spec-10-percent-layer) !important; border-top: none !important; box-shadow: none !important; backdrop-filter: none !important)
-! Thumbnail stuff
-youtube.com##ytd-thumbnail a, ytd-thumbnail::before:style(border-radius: 0px !important)
-youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
-youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
-! Thumbnail buttons
-youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
-! Miniplayer
-youtube.com##ytd-miniplayer #player-container, .ytp-player-minimized .html5-main-video, .ytp-miniplayer-scrim:style(border-radius: 0px !important)
 ! General tooltips
 youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
 ! Loading placeholders
@@ -37,6 +29,14 @@ youtube.com##html[dark] #home-container-skeleton:style(background-color: #181818
 youtube.com##html:has(#watch-page-skeleton):style(background-color: #f9f9f9 !important)
 youtube.com##html[dark]:has(#watch-page-skeleton):style(background-color: #181818 !important)
 youtube.com##ytd-ghost-grid-renderer .rich-thumbnail:style(border-radius: 0px !important)
+! Thumbnail stuff
+youtube.com##ytd-thumbnail a, ytd-thumbnail::before:style(border-radius: 0px !important)
+youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0px !important)
+youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
+! Thumbnail buttons
+youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
+! Miniplayer
+youtube.com##ytd-miniplayer #player-container, .ytp-player-minimized .html5-main-video, .ytp-miniplayer-scrim:style(border-radius: 0px !important)
 ! Video preview player
 youtube.com##ytd-video-preview #video-preview-container:style(border-radius: 0px !important)
 ! Video settings menu
