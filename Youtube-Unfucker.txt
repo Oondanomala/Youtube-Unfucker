@@ -20,6 +20,7 @@ youtube.com##.sbsb_c:style(padding: 0px 24px 0px 10px !important)
 ! youtube.com##.sbfl_a:style(margin: -5px -18px -9px 0 !important)
 ! Top bar menus (sheets-refresh)
 ! youtube.com##ytd-multi-page-menu-renderer:style(border-radius: 0px !important; background: var(--yt-spec-brand-background-primary) !important; border: 1px solid var(--yt-spec-10-percent-layer) !important; border-top: none !important; box-shadow: none !important; backdrop-filter: none !important)
+! youtube.com##ytd-active-account-header-renderer:style(background-color: var(--yt-spec-brand-background-primary) !important)
 ! General tooltips
 youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
 ! Dropdown menu (the animated one)
