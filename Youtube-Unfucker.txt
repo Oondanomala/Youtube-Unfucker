@@ -69,7 +69,7 @@ youtube.com###channel-name.ytd-video-owner-renderer:style(font-size: 1.4rem !imp
 youtube.com##ytd-rich-metadata-renderer:style(border-radius: 0px !important)
 ! General dialog menus (share, add to playlist, report, etc...)
 youtube.com##tp-yt-paper-dialog:style(border-radius: 0px !important; box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4) !important)
-youtube.com##tp-yt-iron-overlay-backdrop.opened:style(--iron-overlay-backdrop-opacity: 0.8 !important)
+youtube.com##tp-yt-iron-overlay-backdrop:style(--iron-overlay-backdrop-opacity: 0.8 !important)
 ! Share dialog
 youtube.com##yt-copy-link-renderer #bar:style(border-radius: 2px !important; padding: 4px 0 !important)
 ! Panel beside the video (chapters, clips, transcript) (modern-panels)
