@@ -99,7 +99,7 @@ youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:hover:style(color: var(--yt-live-chat-primary-text-color) !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m > yt-touch-feedback-shape
 ! Watch next recommendations
-youtube.com##ytd-compact-video-renderer:nth-of-type(1):style(margin-top: 0 !important)
+youtube.com##ytd-compact-video-renderer:first-child, ytd-compact-playlist-renderer:first-child:style(margin-top: 0 !important)
 
 ! Temporary solution: disables some of the new changes by removing some tags.
 ! Youtube may eventually remove the old code, will have to use css then. (will that actually happen lmao)
