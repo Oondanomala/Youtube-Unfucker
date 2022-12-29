@@ -47,6 +47,8 @@ youtube.com##ytd-miniplayer #player-container, .ytp-player-minimized .html5-main
 ! Video preview player
 youtube.com##ytd-video-preview #video-preview-container:style(border-radius: 0px !important)
 youtube.com##ytd-video-preview ytd-thumbnail-overlay-endorsement-renderer:style(border-radius: 0px !important)
+! Channel trailer
+youtube.com##ytd-channel-video-player-renderer #player:style(border-radius: 0px !important)
 ! Video settings menu
 youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
 youtube.com##.ytp-swatch-color-white:style(color: #f00 !important)
