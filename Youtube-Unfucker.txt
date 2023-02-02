@@ -70,6 +70,7 @@ youtube.com##ytd-channel-video-player-renderer #player:style(border-radius: 0px 
 ! Video settings menu
 youtube.com##.ytp-settings-menu:style(border-radius: 2px !important)
 youtube.com##.ytp-swatch-color-white:style(color: #f00 !important)
+youtube-nocookie.com##.ytp-swatch-color-white:style(color: #f00 !important)
 ! Player buttons tooltip
 youtube.com##.ytp-tooltip-text:style(border-radius: 2px !important)
 ! Next/Previous and switch multifeed button tooltip
