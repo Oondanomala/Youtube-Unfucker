@@ -123,6 +123,10 @@ youtube.com###show-hide-button.ytd-live-chat-frame:has(yt-button-shape:empty)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:style(border-radius: 0 !important; height: 29px !important; font-size: 11px !important; text-transform: uppercase !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; color: var(--yt-live-chat-secondary-text-color) !important; background-color: var(--yt-spec-brand-background-primary) !important; border: none !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:hover:style(color: var(--yt-live-chat-primary-text-color) !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m > yt-touch-feedback-shape
+! Cant remove the click effect, uBO can remove events, but it can't target specific elements only
+! youtube.com##yt-live-chat-app yt-live-chat-text-message-renderer:style(cursor: auto !important)
+! youtube.com##yt-live-chat-app yt-live-chat-text-message-renderer:hover, .yt-live-chat-app yt-live-chat-text-message-renderer:active:style(background-color: transparent !important)
+youtube.com##yt-live-chat-app yt-live-chat-text-message-renderer:remove-attr(whole-message-clickable)
 ! Watch next recommendations
 youtube.com##ytd-compact-video-renderer:first-child, ytd-compact-playlist-renderer:first-child:style(margin-top: 0 !important)
 ! Settings sidebar (guide-refresh)
