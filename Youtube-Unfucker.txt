@@ -7,8 +7,8 @@
 
 ! Background (also reverts darker dark theme) (darker-dark-theme)
 ! youtube.com##ytd-app:style(background: var(--yt-spec-general-background-a) !important)
-! Topbar (guide-refresh)
-! youtube.com##ytd-masthead yt-icon-button, ytd-masthead ytd-topbar-menu-button-renderer, ytd-masthead ytd-notification-topbar-button-renderer:style(background-color: transparent !important)
+! Topbar
+youtube.com##ytd-masthead yt-icon-button, ytd-masthead ytd-topbar-menu-button-renderer, ytd-masthead ytd-notification-topbar-button-renderer:style(background-color: transparent !important)
 ! Search box
 youtube.com##ytd-searchbox #container:style(border-radius: 2px 0 0 2px !important; margin-left: 34px !important; padding: 2px 6px !important)
 youtube.com##ytd-searchbox[has-focus] #container:style(padding: 2px 6px 2px 40px !important; margin-left: 0 !important)
@@ -23,18 +23,18 @@ youtube.com##.sbfl_a:style(margin: -5px -18px -9px 0 !important)
 ! Top bar menus (sheets-refresh)
 ! youtube.com##ytd-multi-page-menu-renderer:style(border-radius: 0 !important; background: var(--yt-spec-brand-background-primary) !important; border: 1px solid var(--yt-spec-10-percent-layer) !important; border-top: none !important; box-shadow: none !important; backdrop-filter: none !important)
 ! youtube.com##ytd-active-account-header-renderer:style(background-color: var(--yt-spec-brand-background-primary) !important)
-! Sidebar (guide-refresh)
-! youtube.com##ytd-mini-guide-renderer:style(padding: 0 !important)
-! youtube.com##ytd-mini-guide-entry-renderer:style(border-radius: 0 !important)
-! youtube.com##ytd-mini-guide-entry-renderer a:style(width: auto !important)
-! youtube.com##ytd-guide-renderer:hover:style(--ytd-guide-entry-renderer-active-guide-item-background-color: unset !important; --ytd-guide-entry-renderer-focused-guide-item-background-color: unset !important)
-! youtube.com##ytd-guide-section-renderer:first-child:style(padding: 12px 0 !important)
-! youtube.com##ytd-guide-section-renderer:not(:first-child):style(padding: 8px 0 !important)
-! youtube.com###guide-section-title:style(text-transform: var(--ytd-tab-system-text-transform) !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; padding: 8px 24px !important; font-size: var(--ytd-tab-system-font-size) !important; line-height: normal !important; font-weight: var(--ytd-tab-system-font-weight) !important; color: var(--yt-spec-text-secondary) !important)
-! youtube.com##ytd-guide-entry-renderer:style(border-radius: 0 !important; width: 100% !important)
-! youtube.com##ytd-guide-entry-renderer #endpoint:hover, ytd-guide-entry-renderer #endpoint:active, ytd-guide-entry-renderer #endpoint:focus:style(border-radius: 0 !important)
-! youtube.com##ytd-guide-entry-renderer tp-yt-paper-item:style(padding: 0 24px !important; --paper-item-focused-before-border-radius: 0 !important; --paper-item-focused-before-background: unset !important)
-! youtube.com##ytd-guide-entry-renderer yt-interaction:style(border-radius: 0 !important)
+! Sidebar
+youtube.com##ytd-mini-guide-renderer:style(padding: 0 !important)
+youtube.com##ytd-mini-guide-entry-renderer:style(border-radius: 0 !important)
+youtube.com##ytd-mini-guide-entry-renderer a:style(width: auto !important)
+youtube.com##ytd-guide-renderer:hover:style(--ytd-guide-entry-renderer-active-guide-item-background-color: unset !important; --ytd-guide-entry-renderer-focused-guide-item-background-color: unset !important)
+youtube.com##ytd-guide-section-renderer:first-child:style(padding: 12px 0 !important)
+youtube.com##ytd-guide-section-renderer:not(:first-child):style(padding: 8px 0 !important)
+youtube.com###guide-section-title:style(text-transform: var(--ytd-tab-system-text-transform) !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; padding: 8px 24px !important; font-size: var(--ytd-tab-system-font-size) !important; line-height: normal !important; font-weight: var(--ytd-tab-system-font-weight) !important; color: var(--yt-spec-text-secondary) !important)
+youtube.com##ytd-guide-entry-renderer:style(border-radius: 0 !important; width: 100% !important)
+youtube.com##ytd-guide-entry-renderer #endpoint:hover, ytd-guide-entry-renderer #endpoint:active, ytd-guide-entry-renderer #endpoint:focus:style(border-radius: 0 !important)
+youtube.com##ytd-guide-entry-renderer tp-yt-paper-item:style(padding: 0 24px !important; --paper-item-focused-before-border-radius: 0 !important; --paper-item-focused-before-background: unset !important)
+youtube.com##ytd-guide-entry-renderer yt-interaction:style(border-radius: 0 !important)
 ! General tooltips
 youtube.com##.tp-yt-paper-tooltip:style(border-radius: 2px !important)
 ! Dropdown menu (sheets-refresh)
@@ -126,17 +126,16 @@ youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next
 youtube.com##yt-live-chat-app yt-live-chat-text-message-renderer:remove-attr(whole-message-clickable)
 ! Watch next recommendations
 youtube.com##ytd-compact-video-renderer:first-child, ytd-compact-playlist-renderer:first-child:style(margin-top: 0 !important)
-! Settings sidebar (guide-refresh)
-! youtube.com##ytd-settings-sidebar-renderer:style(padding: 20px 0 !important)
-! youtube.com##ytd-settings-sidebar-renderer #title:style(text-transform: uppercase !important; font-family: Roboto, Arial, sans-serif !important; font-size: 1.6em !important; line-height: 2.8rem !important; font-weight: 500 !important)
-! youtube.com##ytd-settings-sidebar-renderer ytd-compact-link-renderer:style(margin: 0 !important; border-radius: 0 !important)
-! youtube.com##ytd-compact-link-renderer[compact-link-style="compact-link-style-type-settings-sidebar"] tp-yt-paper-item:style(--paper-item-focused-before-border-radius: 0 !important; padding: 8px 24px !important)
+! Settings sidebar
+youtube.com##ytd-settings-sidebar-renderer:style(padding: 20px 0 !important)
+youtube.com##ytd-settings-sidebar-renderer #title:style(text-transform: uppercase !important; font-family: Roboto, Arial, sans-serif !important; font-size: 1.6em !important; line-height: 2.8rem !important; font-weight: 500 !important)
+youtube.com##ytd-settings-sidebar-renderer ytd-compact-link-renderer:style(margin: 0 !important; border-radius: 0 !important)
+youtube.com##ytd-compact-link-renderer[compact-link-style="compact-link-style-type-settings-sidebar"] tp-yt-paper-item:style(--paper-item-focused-before-border-radius: 0 !important; padding: 8px 24px !important)
 
 ! Temporary solution: disables some of the new changes by removing some tags.
 ! Youtube may eventually remove the old code, will have to use css then. (will that actually happen lmao)
 ! This is a bit slow, but way easier and sturdier than selecting each element containing the attribute. (This is probably fine. And yes, stay is needed)
-youtube.com##+js(ra, darker-dark-theme|guide-refresh|sheets-refresh|modern-panels, , stay)
+youtube.com##+js(ra, darker-dark-theme|sheets-refresh|modern-panels, , stay)
 ! darker-dark-theme       => Makes light theme lighter (#fff) and dark theme darker (#0f0f0f)
-! guide-refresh           => Left menu thing
 ! sheets-refresh          => Top bar menus
 ! modern-panels           => Video Panels
