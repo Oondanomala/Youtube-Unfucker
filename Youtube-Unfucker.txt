@@ -63,7 +63,7 @@ youtube.com##ytd-video-preview #video-preview-container:style(border-radius: 0 !
 youtube.com##ytd-video-preview ytd-thumbnail-overlay-endorsement-renderer:style(border-radius: 0 !important)
 ! Community posts
 youtube.com##ytd-post-renderer, ytd-backstage-post-thread-renderer:style(border-radius: 0 !important)
-youtube.com##ytd-backstage-image-renderer #image-container:style(border-radius: 0 !important)
+youtube.com##ytd-backstage-image-renderer yt-img-shadow:style(border-radius: 0 !important)
 youtube.com##ytd-backstage-poll-renderer:not([is-image-poll]) #sign-in, ytd-backstage-poll-renderer .choice-info:style(height: var(--ytd-backstage-poll-choice-height) !important)
 ! Channel trailer
 youtube.com##ytd-channel-video-player-renderer #player:style(border-radius: 0 !important)
