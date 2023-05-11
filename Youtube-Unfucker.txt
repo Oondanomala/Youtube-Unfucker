@@ -78,7 +78,9 @@ youtube.com##.ytp-tooltip:style(border-radius: 2px !important)
 youtube.com##.ytp-tooltip-bg:style(border-radius: 0 !important)
 ! Video watermark
 youtube.com##.branding-context-container-inner:style(border-radius: 2px !important)
-youtube.com##.ytp-sb-subscribe, .ytp-sb-unsubscribe:style(border-radius: 2px !important)
+youtube.com##.ytp-sb-subscribe, .ytp-sb-unsubscribe:style(border-radius: 2px !important; text-transform: uppercase !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important)
+youtube.com##.ytp-sb-subscribe:style(background-color: var(--yt-spec-brand-button-background) !important; color: var(--yt-spec-static-brand-white) !important)
+youtube.com##.ytp-sb-unsubscribe:style(background-color: rgb(250, 250, 250) !important; color: rgba(17, 17, 17, .6) !important)
 ! Endscreen recommendations
 youtube.com##.ytp-videowall-still-image:style(border-radius: 0 !important)
 ! Endcards
