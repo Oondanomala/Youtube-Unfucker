@@ -137,7 +137,7 @@ youtube.com##ytd-compact-link-renderer[compact-link-style="compact-link-style-ty
 ! Temporary solution: disables some of the new changes by removing some tags.
 ! Youtube may eventually remove the old code, will have to use css then. (will that actually happen lmao)
 ! This is a bit slow, but way easier and sturdier than selecting each element containing the attribute. (This is probably fine. And yes, stay is needed)
-youtube.com##+js(ra, darker-dark-theme|sheets-refresh|modern-panels, , stay)
+youtube.com##+js(ra, darker-dark-theme|modern-panels, , stay)
 ! darker-dark-theme       => Makes light theme lighter (#fff) and dark theme darker (#0f0f0f)
 ! sheets-refresh          => Top bar menus
 ! modern-panels           => Video Panels
