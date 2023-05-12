@@ -65,6 +65,9 @@ youtube.com##ytd-video-preview ytd-thumbnail-overlay-endorsement-renderer:style(
 youtube.com##ytd-post-renderer, ytd-backstage-post-thread-renderer:style(border-radius: 0 !important)
 youtube.com##ytd-backstage-image-renderer yt-img-shadow:style(border-radius: 0 !important)
 youtube.com##ytd-backstage-poll-renderer:not([is-image-poll]) #sign-in, ytd-backstage-poll-renderer .choice-info:style(height: var(--ytd-backstage-poll-choice-height) !important)
+! Subscribe button (WIP)
+youtube.com###subscribe-button button:style(background-color: var(--yt-spec-brand-button-background) !important; color: var(--yt-spec-static-brand-white) !important)
+youtube.com###subscribe-button button yt-touch-feedback-shape
 ! Channel trailer
 youtube.com##ytd-channel-video-player-renderer #player:style(border-radius: 0 !important)
 ! Video settings menu
@@ -88,8 +91,38 @@ youtube.com##.ytp-ce-video, .ytp-ce-playlist:style(border-radius: 0 !important)
 youtube.com##.ytp-ce-expanding-overlay-background:style(border-radius: 2px !important)
 ! Infocards
 youtube.com##.iv-card:style(border-radius: 0 !important)
-! Channel name in video page
-youtube.com###channel-name.ytd-video-owner-renderer:style(font-size: 1.4rem !important; line-height: 2rem !important)
+! Description
+youtube.com##ytd-watch-metadata:remove()
+youtube.com###meta-contents[hidden], #info-contents[hidden]:style(display: block !important)
+! Description buttons
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer:style(max-height: 40px !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer button:style(background-color: transparent !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer div button:style(padding-right: 6px !important; padding-left: 0 !important; width: auto !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; text-transform: uppercase !important; user-select: auto !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer div button .yt-spec-button-shape-next__icon:style(padding: 6px !important; margin: 0 !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer .yt-spec-touch-feedback-shape:style(border-radius: 0 !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer div .yt-spec-touch-feedback-shape:style(width: 36px !important; user-select: none !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer .yt-spec-touch-feedback-shape *:style(border-radius: 50% !important)
+youtube.com###segmented-like-button button::after
+youtube.com###segmented-dislike-button:style(margin-left: 8px !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer > yt-button-shape > button:style(width: 40px !important; height: 40px !important; border-radius: 50% !important)
+!  Remove like animation. Yeah
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg > g > g:first-child
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg > g > g:last-child:style(transform: matrix(1.0880000591278076,0,0,1.0880000591278076,69.95299530029297,67.9433822631836) !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg > g > g:last-child > g:style(transform: matrix(1,0,0,1,60,60) !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg g path:style(fill: #000 !important; stroke: #000 !important)
+youtube.com##html[dark] ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg g path:style(fill: #fff !important; stroke: #fff !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg > g > g:last-child > g:nth-child(1) path:style(d: path("M25.025999069213867,-4.00600004196167 C25.025999069213867,-4.00600004196167 5.992000102996826,-3.996999979019165 5.992000102996826,-3.996999979019165 C5.992000102996826,-3.996999979019165 11.012999534606934,-22.983999252319336 11.012999534606934,-22.983999252319336 C12.230999946594238,-26.90399932861328 13,-31.94300079345703 8.994000434875488,-31.981000900268555 C7,-32 5,-32 4.021999835968018,-31.007999420166016 C4.021999835968018,-31.007999420166016 -19.993000030517578,-5.03000020980835 -19.993000030517578,-5.03000020980835 C-19.993000030517578,-5.03000020980835 -20.027999877929688,32.025001525878906 -20.027999877929688,32.025001525878906 C-20.027999877929688,32.025001525878906 20.97599983215332,31.986000061035156 20.97599983215332,31.986000061035156 C25.010000228881836,31.986000061035156 26.198999404907227,29.562000274658203 26.99799919128418,25.985000610351562 C26.99799919128418,25.985000610351562 31.972000122070312,4.026000022888184 31.972000122070312,4.026000022888184 C33,-0.6930000185966492 30.392000198364258,-4.00600004196167 25.025999069213867,-4.00600004196167z") !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer ytd-lottie-player svg > g > g:last-child > g:nth-child(3) path:style(d: path("M-27.993000030517578,-4.015999794006348 C-27.993000030517578,-4.015999794006348 -36.02799987792969,-3.996999979019165 -36.02799987792969,-3.996999979019165 C-36.02799987792969,-3.996999979019165 -36,31.9950008392334 -36,31.9950008392334 C-36,31.9950008392334 -28.027999877929688,31.976999282836914 -28.027999877929688,31.976999282836914 C-28.027999877929688,31.976999282836914 -27.993000030517578,-4.015999794006348 -27.993000030517578,-4.015999794006348z") !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer button[aria-pressed="true"] ytd-lottie-player svg > g > g:last-child > g:nth-child(1), ytd-menu-renderer.ytd-video-primary-info-renderer button[aria-pressed="true"] ytd-lottie-player svg > g > g:last-child > g:nth-child(3):style(display: block !important)
+youtube.com##ytd-menu-renderer.ytd-video-primary-info-renderer button[aria-pressed="true"] ytd-lottie-player svg > g > g:last-child > g:nth-child(4), ytd-menu-renderer.ytd-video-primary-info-renderer button[aria-pressed="true"] ytd-lottie-player svg > g > g:last-child > g:nth-child(2)
+!  Fix for RYD (breaks the dynamic buttons when page size changes, can't figure out how to fix)
+youtube.com##.ryd-tooltip:style(position: absolute !important; top: 46px !important)
+youtube.com##.ryd-tooltip-bar-container, #ryd-bar-container, #ryd-bar:style(padding-right: 8px !important)
+youtube.com###menu-container.ytd-video-primary-info-renderer:style(flex-grow: 0 !important)
+! Channel name in description
+youtube.com##ytd-video-owner-renderer #avatar:style(margin-right: 16px !important; width: 48px !important; height: 48px !important)
+youtube.com##ytd-video-owner-renderer #avatar img:style(width: 48px !important)
+youtube.com##ytd-video-owner-renderer #channel-name:style(font-size: 1.4rem !important; line-height: 2rem !important)
 ! Category thing in the description
 youtube.com##ytd-rich-metadata-renderer:style(border-radius: 0 !important)
 ! General dialog menus (share, add to playlist, report, etc...)
@@ -139,5 +172,4 @@ youtube.com##ytd-compact-link-renderer[compact-link-style="compact-link-style-ty
 ! This is a bit slow, but way easier and sturdier than selecting each element containing the attribute. (This is probably fine. And yes, stay is needed)
 youtube.com##+js(ra, darker-dark-theme|modern-panels, , stay)
 ! darker-dark-theme       => Makes light theme lighter (#fff) and dark theme darker (#0f0f0f)
-! sheets-refresh          => Top bar menus
 ! modern-panels           => Video Panels
