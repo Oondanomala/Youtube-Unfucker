@@ -92,6 +92,7 @@ youtube.com##.ytp-ce-expanding-overlay-background:style(border-radius: 2px !impo
 ! Infocards
 youtube.com##.iv-card:style(border-radius: 0 !important)
 ! Description
+youtube.com##ytd-watch-metadata
 youtube.com##ytd-watch-metadata:remove()
 youtube.com###meta-contents[hidden], #info-contents[hidden]:style(display: block !important)
 ! Description buttons
