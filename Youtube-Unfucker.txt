@@ -156,7 +156,7 @@ youtube.com##ytd-live-chat-frame:style(border-radius: 0 !important; border: 1px 
 youtube.com##ytd-live-chat-frame[show-above-scrim]:style(z-index: 601 !important)
 youtube.com###chatframe:style(border-radius: 0 !important)
 youtube.com###show-hide-button.ytd-live-chat-frame:has(yt-button-shape:empty)
-youtube.com###show-hide-button > ytd-toggle-button-renderer:style(margin: 0 !important)
+youtube.com###show-hide-button > ytd-toggle-button-renderer:style(padding: 0 !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:style(border-radius: 0 !important; height: 29px !important; font-size: 11px !important; text-transform: uppercase !important; letter-spacing: var(--ytd-tab-system-letter-spacing) !important; color: var(--yt-live-chat-secondary-text-color) !important; background-color: var(--yt-spec-brand-background-primary) !important; border: none !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m:hover:style(color: var(--yt-live-chat-primary-text-color) !important)
 youtube.com##.ytd-live-chat-frame > yt-button-shape > .yt-spec-button-shape-next--size-m > yt-touch-feedback-shape
