@@ -52,7 +52,7 @@ youtube.com##ytd-ghost-grid-renderer .rich-thumbnail:style(border-radius: 0 !imp
 ! Thumbnail stuff
 youtube.com##ytd-thumbnail a, ytd-thumbnail::before:style(border-radius: 0 !important)
 youtube.com##ytd-playlist-thumbnail a:style(border-radius: 0 !important)
-youtube.com##ytd-thumbnail ytd-thumbnail-overlay-time-status-renderer:style(border-radius: 2px !important)
+youtube.com##ytd-thumbnail #time-status:style(border-radius: 2px !important)
 ! Thumbnail buttons
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer #label:style(border-radius: 2px 0 0 2px !important)
