@@ -54,6 +54,7 @@ youtube.com###player.skeleton.flexy #player-api:style(border-radius: 0 !importan
 youtube.com##ytd-thumbnail a, ytd-thumbnail::before:style(border-radius: 0 !important)
 youtube.com##ytd-playlist-thumbnail a, ytd-playlist-thumbnail::before:style(border-radius: 0 !important)
 youtube.com##ytd-thumbnail #time-status:style(border-radius: 2px !important)
+youtube.com##yt-collections-stack
 ! Thumbnail buttons
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer:style(border-radius: 2px !important)
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer #label:style(border-radius: 2px 0 0 2px !important)
